@@ -6,10 +6,10 @@ This repo/code has the ability for the user to generate a README.md file. "node 
 
 ## Preview
 
-![README Generator](assets\images\GenREADME_gif.gif)
+![README Generator](./assets/images/GenREADME_gif.gif)
 
 ## Link to Dashboard
 
-* Here is the link to my github : [Github/JMGuzman-784](https://github.com/JMGuzman-784/hw6)
+* Here is the link to my github : [Github/JMGuzman-784](https://github.com/JMGuzman-784/hw9)
 
-* Here is the pages : [JMGuzman-784/Weather-README](https://jmguzman-784.github.io/hw6/)
+* Here is the code : [JMGuzman-784/Weather-README](https://github.com/JMGuzman-784/hw9/blob/main/index.js)
