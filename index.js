@@ -1,8 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateREADME = ({ title, description, preview, githublink, linktopage }) => `
-# ${title}
+
+const generateREADME = ({ title, description, preview, githublink, linktopage }) => `# ${title}
 ## Description
 ${description}
     
@@ -38,13 +38,19 @@ inquirer
         type: 'input',
         name: 'github',
         message: 'Link to github pages?',
-        link: 'Link?',
+        validate: async (input) => {
+            const valid = input.startsWith("https://");
+            return valid || "Please enter a valid website";
+        },
     },
     {
         type: 'input',
         name: 'webpage',
         message: 'Link to webpage?',
-        link: 'Link?',
+        validate: async (input) => {
+            const valid = input.startsWith("https://");
+            return valid || "Please enter a valid website";
+        },
     },
 ]).then((answers) => {
       const readMePageContent = generateREADME(answers);
