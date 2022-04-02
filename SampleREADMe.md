@@ -1,6 +1,6 @@
-# Readme gen sampler
+# README Gen Sample
 ## Description
-this is a sample
+This is a sample readme from the readme gend
     
 ## Preview
 ![Webpage preview]()
@@ -9,12 +9,12 @@ this is a sample
 The MIT License
 
 ## Link to GithubPages
-* Github Username[Github](https://github.com/JMGuzman-784/)
-* Here is the link to Github : [Github/User]undefined
+* Github Username https://github.com/JMGuzman-784/
+* Here is the link to Github : undefined
 
 ## Link to Webpages
-* Here is the link to Webpage : [GWebpage/User]undefined
+* Here is the link to Webpage : undefined
 
 ##
-* Email Address :<a href="mailto:josemguzman784@gmail.com">josemguzman784@gmail.com</a>
+* Email Address : <a href="mailto: josemguzman784@gmail.com"> josemguzman784@gmail.com</a>
 

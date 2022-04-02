@@ -13,14 +13,14 @@ ${description}
 ${license}
 
 ## Link to GithubPages
-* Github Username[Github](https://github.com/${githubUsername}/)
-* Here is the link to Github : [Github/User]${githublink}
+* Github Username https://github.com/${githubUsername}/
+* Here is the link to Github : ${githublink}
 
 ## Link to Webpages
-* Here is the link to Webpage : [GWebpage/User]${linktopage}
+* Here is the link to Webpage : ${linktopage}
 
 ##
-* Email Address :<a href="mailto:${emailAddress}">${emailAddress}</a>
+* Email Address : <a href="mailto: ${emailAddress}"> ${emailAddress}</a>
 
 `;
 
