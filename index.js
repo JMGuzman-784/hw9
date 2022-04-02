@@ -81,7 +81,7 @@ inquirer
 ]).then((answers) => {
       const readMePageContent = generateREADME(answers);
         console.log(answers);
-      fs.writeFile('SampleREADMe.md ', readMePageContent, (err) =>
+      fs.writeFile('SampleREADMe.md', readMePageContent, (err) =>
         err ? console.log(err) : console.log('Successfully created ☑️ README.md!')
     );
 });
