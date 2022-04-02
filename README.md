@@ -12,4 +12,4 @@ This repo/code has the ability for the user to generate a README.md file. "node 
 
 * Here is the link to my github : [Github/JMGuzman-784](https://github.com/JMGuzman-784/hw9)
 
-* Here is the code : [JMGuzman-784/Weather-README](https://github.com/JMGuzman-784/hw9/blob/main/index.js)
+* Here is the code : [JMGuzman-784/Readme-Gen](https://github.com/JMGuzman-784/hw9/blob/main/index.js)

@@ -14,10 +14,10 @@ ${license}
 
 ## Link to GithubPages
 * Github Username https://github.com/${githubUsername}/
-* Here is the link to Github : (${githublink})
+* Here is the link to Github : [Github/JMGuzman-784](${githublink})
 
 ## Link to Webpages
-* Here is the link to Webpage : (${linktopage})
+* Here is the link to Webpage : [Github/webpage/JMGuzman-784](${linktopage})
 
 ##
 * Email Address : <a href="mailto: ${emailAddress}"> ${emailAddress}</a>
