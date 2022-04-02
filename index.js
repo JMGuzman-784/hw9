@@ -13,14 +13,14 @@ ${description}
 ${license}
 
 ## Link to GithubPages
-* Github Username : ${githubUsername}
+* Github Username[Github](https://github.com/${githubUsername}/)
 * Here is the link to Github : [Github/User]${githublink}
-    
+
 ## Link to Webpages
 * Here is the link to Webpage : [GWebpage/User]${linktopage}
 
 ##
-* Email Address : ${emailAddress}
+* Email Address :<a href="mailto:${emailAddress}">${emailAddress}</a>
 
 `;
 
@@ -81,7 +81,7 @@ inquirer
 ]).then((answers) => {
       const readMePageContent = generateREADME(answers);
         console.log(answers);
-      fs.writeFile('READMe.md ', readMePageContent, (err) =>
+      fs.writeFile('SampleREADMe.md ', readMePageContent, (err) =>
         err ? console.log(err) : console.log('Successfully created ☑️ README.md!')
     );
 });
