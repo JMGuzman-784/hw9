@@ -3,6 +3,13 @@ const fs = require('fs');
 
 
 const generateREADME = ({ title, description, preview, license, githubUsername, githublink, linktopage, emailAddress }) => `# ${title}
+
+## Table of Contents
+* [Description](#description)
+* [Preview](#preview)
+* [License](#license)
+* [Links](#links)
+
 ## Description
 ${description}
     
@@ -12,14 +19,10 @@ ${description}
 ## License
 ${license}
 
-## Link to GithubPages
+## Accessible Links
 * Github Username https://github.com/${githubUsername}/
 * Here is the link to Github : [Github/JMGuzman-784](${githublink})
-
-## Link to Webpages
 * Here is the link to Webpage : [Github/webpage/JMGuzman-784](${linktopage})
-
-##
 * Email Address : <a href="mailto: ${emailAddress}"> ${emailAddress}</a>
 
 `;
